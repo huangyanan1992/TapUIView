@@ -13,6 +13,7 @@
 		661E60CE1C00216A0048FD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661E60CC1C00216A0048FD45 /* Main.storyboard */; };
 		661E60D01C00216A0048FD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661E60CF1C00216A0048FD45 /* Assets.xcassets */; };
 		661E60D31C00216A0048FD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661E60D11C00216A0048FD45 /* LaunchScreen.storyboard */; };
+		661E60DC1C0021830048FD45 /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E60DB1C0021830048FD45 /* UIView+Tap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		661E60CF1C00216A0048FD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		661E60D21C00216A0048FD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		661E60D41C00216A0048FD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661E60DA1C0021830048FD45 /* UIView+Tap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tap.h"; sourceTree = "<group>"; };
+		661E60DB1C0021830048FD45 /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				661E60C61C00216A0048FD45 /* AppDelegate.h */,
 				661E60C71C00216A0048FD45 /* AppDelegate.m */,
+				661E60DA1C0021830048FD45 /* UIView+Tap.h */,
+				661E60DB1C0021830048FD45 /* UIView+Tap.m */,
 				661E60C91C00216A0048FD45 /* ViewController.h */,
 				661E60CA1C00216A0048FD45 /* ViewController.m */,
 				661E60CC1C00216A0048FD45 /* Main.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661E60DC1C0021830048FD45 /* UIView+Tap.m in Sources */,
 				661E60CB1C00216A0048FD45 /* ViewController.m in Sources */,
 				661E60C81C00216A0048FD45 /* AppDelegate.m in Sources */,
 				661E60C51C00216A0048FD45 /* main.m in Sources */,

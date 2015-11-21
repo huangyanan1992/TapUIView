@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIView+Tap.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
+    view.backgroundColor = [UIColor redColor];
+    [view addTapGestureWithBlock:^{
+        NSLog(@"tap");
+    }];
+    [self.view addSubview:view];
+    
 }
 
 @end
